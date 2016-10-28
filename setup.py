@@ -8,7 +8,7 @@ setup(name='hyde',
       url='http://ringce.com/hyde',
       packages=find_packages(),
       install_requires=(
-          'django',
+          'django==1.5.12',
           'pyYAML',
           'markdown',
           'pygments',
